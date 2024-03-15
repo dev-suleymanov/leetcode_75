@@ -17,8 +17,8 @@ public class MergeStringsAlternately {
             }
         }
         String result = sB.toString();
-        return result.length() == array1.length + array2.length ?
-                result : result + word2.substring(position);
+        return result.length() == array1.length + array2.length
+                ? result : result + word2.substring(position);
     }
 
     public static void main(String[] args) {
