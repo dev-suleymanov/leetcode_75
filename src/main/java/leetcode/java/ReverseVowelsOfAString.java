@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/*
+    https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=study-plan-v2&envId=leetcode-75
+ */
 public class ReverseVowelsOfAString {
     public static String reverseVowels(String s) {
         List<Character> list = List.of(

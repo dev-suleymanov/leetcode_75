@@ -1,9 +1,11 @@
 package leetcode.java;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
+
+/*
+    https://leetcode.com/problems/can-place-flowers/description/?envType=study-plan-v2&envId=leetcode-75
+ */
 
 public class CanPlaceFlowers {
     public static boolean canPlaceFlowers(int[] flowerbed, int n) {
@@ -33,16 +35,3 @@ public class CanPlaceFlowers {
         System.out.println(result);
     }
 }
-
-
-/*
-Example 1:
-
-Input: flowerbed = [1,0,0,0,1], n = 1
-Output: true
-Example 2:
-
-Input: flowerbed = [1,0,0,0,1], n = 2
-Output: false
-
- */
