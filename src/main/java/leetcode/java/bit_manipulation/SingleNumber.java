@@ -1,10 +1,10 @@
 package leetcode.java.bit_manipulation;
 
 /*
-    https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&envId=leetcode-75
+    https://leetcode.com/problems/single-number/?envType=study-plan-v2&envId=leetcode-75
  */
 
-public class BitManipulation {
+public class SingleNumber {
     public static int singleNumber(int[] nums) {
         int result = 0;
         for (int el : nums) {
